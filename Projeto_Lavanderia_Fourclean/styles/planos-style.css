@@ -1,36 +1,37 @@
-	header{
-			display: flex;
-			background-color: #fff;
-			width: 100%;     
-		}
+header{
+	display: flex;
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 0 0 12px rgba(0,0,0,.08);
+}
 
-		.imagemlogo{
-			padding: 10px;
-			margin: 0 0 15px 60px;
-		}
+.logotipo {
+	padding: 10px;
+	margin: 0 0 15px 60px;
+}
 		
-		.logo2 {
-			width:  200px;
-		}		
+.logotipo-fourclean {
+	width:  200px;
+}		
 
-		.menu {
-			width: 100%;
-			display: flex;
-			justify-content: space-around;
-			align-items: center;
-		} 
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+} 
 	
-	ul {
-			list-style: none;
-			display: flex;
-			justify-content: space-between;
-			gap: 100px;
-		}
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+}
 	
-	a:link {
-		color: #171E70;
-		text-decoration: none;
-		}
+a:link {
+	color: #171E70;
+	text-decoration: none;
+}
 		
 
 body {
