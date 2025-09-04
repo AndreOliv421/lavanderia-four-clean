@@ -67,7 +67,7 @@
 	.servicos {
 		display:flex;
 		gap: 40px;
-		padding: 0 0 0 20px;
+		padding: 0 20px 0 20px;
 		background: #C6D9F4;
 		color: #284268;
 		border-radius: 25px 0 25px 0;
