@@ -37,6 +37,10 @@
 		text-decoration: none;
 	}
 	
+	a:visited {
+		color: #003887;
+	}
+	
 	#titulo-chamada-servicos {
 		background: #003887;
 		display: flex;

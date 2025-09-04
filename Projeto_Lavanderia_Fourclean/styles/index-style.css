@@ -36,6 +36,10 @@
 		color: #171E70;
 		text-decoration: none;
 	}
+	
+	a:visited {
+		color: #003887;
+	}
 		
 	.banner {
 		background: #003887;

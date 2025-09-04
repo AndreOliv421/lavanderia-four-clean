@@ -1,20 +1,11 @@
 
-	.ul-planos {
-		height: 120px;
-		list-style-type: none;
-	} 
-	
-	.li-planos {
-		font-size: 18px;
-	}
-
 	header{
 		display: flex;
 		background-color: #fff;
 		width: 100%;
 		box-shadow: 0 0 12px rgba(0,0,0,.08);
 	}
-
+	
 	.logotipo {
 		padding: 10px;
 		margin: 0 0 15px 60px;
@@ -31,50 +22,6 @@
 		align-items: center;
 	} 
 	
-	.ul-header {
-		list-style: none;
-		display: flex;
-		justify-content: space-between;
-		gap: 100px;
-	}
-	
-	a:link {
-		color: #171E70;
-		text-decoration: none;
-	}
-	
-	.check-icon {
-		width: 20px;
-		height: 20px;
-	}
-
-	.price {
-		font-size: 40px;
-		font-weight: bold;
-	}
-	
-	.duvidas {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 1180px;
-		height: 100px;
-		margin: 20px auto;
-		background-color: #acdbf6;
-		border: 2px solid #acdbf6;
-		border-radius: 10px;
-	}
-	
-	a:link {
-		color: #171E70;
-		text-decoration: none;
-	}
-
-	a:visited {
-		color: #003887;
-	}
-		
-
 	body {
 		font-family: arial;
 		color: #0f0042;
@@ -86,6 +33,37 @@
 	
 	h2 {
 		text-align: center;
+	}
+	
+	p {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	a:visited {
+		color: #003887;
+	}
+	
+	a:link {
+		color: #171E70;
+		text-decoration: none;
+	}
+	
+	.ul-header {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		gap: 100px;
+	}
+	
+	
+	.ul-planos {
+		height: 120px;
+		list-style-type: none;
+	} 
+	
+	.li-planos {
+		font-size: 18px;
 	}
 
 	.planos {
@@ -130,12 +108,7 @@
 		border: 2px solid #003887;
 		border-radius: 10px;
 	}
-
-	p {
-		font-size: 20px;
-		text-align: center;
-	}
-
+	
 	.botao {
 		font-size: 16px;
 		font-weight: bold;
@@ -170,6 +143,28 @@
 		margin: 0 40px 0 40px;
 	}
 	
+	.check-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.price {
+		font-size: 40px;
+		font-weight: bold;
+	}
+	
+	.duvidas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 1180px;
+		height: 100px;
+		margin: 20px auto;
+		background-color: #acdbf6;
+		border: 2px solid #acdbf6;
+		border-radius: 10px;
+	}
+	
 	.botao-fale-conosco {
 		font-size: 16px;
 		color: #003887;
@@ -182,7 +177,7 @@
 		margin: 0 40px 0 40px;
 		
 	}
-	
+
 	footer { 	
 		font-family: arial;
 		font-size: 16px;
