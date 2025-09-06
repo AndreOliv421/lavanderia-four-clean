@@ -191,3 +191,72 @@
 		background-color: #003887;
 		padding: 10px;
 	}
+	
+	/*RESPONSIVO*/
+	
+	@media (max-width: 680px) {
+		
+	main {
+		padding: 0px;
+	}
+	
+		header {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 8px 16px;
+		}
+  
+	.menu { 
+		width: 100%; 
+	}
+	
+	.menu ul {
+		gap: 20px;
+		justify-content: center;
+	}
+	
+		
+	.planos {
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	
+	.duvidas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 500px;
+		height: 100px;
+		margin: 20px auto;
+		background-color: #acdbf6;
+		border: 2px solid #acdbf6;
+		border-radius: 10px;
+	}
+	
+	
+	.rodape {
+		flex-wrap: wrap;
+	}
+	
+	
+	
+	.redes-sociais {
+		width: 80%;
+		justify-content: start;
+	}
+	
+	.icon {
+		width: 30px;
+	}
+	
+	
+	address.rodape {
+		width: 90%;
+		margin: 0px;
+		padding-right: 0px;
+	}
+	
+	
+	}
