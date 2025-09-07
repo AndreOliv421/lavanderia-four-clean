@@ -1,0 +1,60 @@
+	@import url('fonts.css');
+	
+	header {
+		font-family: 'Poppins';
+		display: flex;
+		background-color: #fff;
+		width: 100%;
+		box-shadow: 0 0 12px rgba(0,0,0,.08);
+	}
+
+	.logotipo {
+		padding: 10px;
+		margin: 0 0 15px 60px;
+	}
+		
+	.logotipo-fourclean {
+		width:  200px;
+	}		
+
+	.menu {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	} 
+	
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		gap: 100px;
+	}
+	
+	a:link {
+		color: #171E70;
+		text-decoration: none;
+	}
+	
+	a:visited {
+		color: #003887;
+	}
+		
+	@media (max-width: 680px){ 
+	
+	header {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 8px 16px;
+	}
+  
+	.menu { 
+		width: 100%; 
+	}
+	
+	.menu ul {
+		gap: 20px;
+		justify-content: center;
+	}
+	}

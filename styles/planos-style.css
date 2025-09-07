@@ -1,5 +1,7 @@
-
+	@import url('fonts.css');
+	
 	header{
+		font-family: 'Poppins';
 		display: flex;
 		background-color: #fff;
 		width: 100%;
@@ -250,7 +252,6 @@
 	.icon {
 		width: 30px;
 	}
-	
 	
 	address.rodape {
 		width: 90%;
