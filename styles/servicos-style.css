@@ -1,0 +1,116 @@
+	body{
+		font-family:Arial;
+	}
+		
+	header{
+		display: flex;
+		background-color: #fff;
+		width: 100%;   
+		box-shadow: 0 0 12px rgba(0,0,0,.08);
+	}
+
+	.logotipo {
+		padding: 10px;
+		margin: 0 0 15px 60px;
+	}
+		
+	.logotipo-fourclean {
+		width:  200px;
+	}		
+
+	.menu {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	} 
+	
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		gap: 100px;
+	}
+	
+	a:link {
+		color: #171E70;
+		text-decoration: none;
+	}
+	
+	a:visited {
+		color: #003887;
+	}
+	
+	#titulo-chamada-servicos {
+		background: #003887;
+		display: flex;
+		justify-content: space-around;
+		color: #fff;
+		font-size: 24px;
+		align-items: center;
+	}
+	
+	.descricao-servicos p {
+		font-size: 20px;
+	}
+
+	.descricao-servicos h2 {
+		font-size: 35px;
+	}
+
+	.descricao {
+		color: #284268;
+	}
+
+	.servicos-imagem {
+		width: 450px;
+		border-radius:6px;
+		box-shadow:0 8px 24px rgba(0,0,0,.08);
+	}
+	
+	.para-você {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row-reverse;
+		gap: 80px;
+		align-items: center;
+		margin: 80px;
+		padding: 40px;
+		background: none;
+		border-radius: 25px 0 25px 0;
+		box-shadow:0 8px 24px rgba(0,0,0,.08);
+	}
+	
+	.para-casa {
+		display: flex;
+		justify-content: space-around;
+		gap: 80px;
+		align-items: center;
+		margin: 80px;
+		padding: 40px;
+		background: none;
+		border-radius: 25px 0 25px 0;
+		box-shadow:0 8px 24px rgba(0,0,0,.08);
+	}
+	
+	.para-empresa {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row-reverse;
+		gap: 80px;
+		align-items: center;
+		margin: 80px;
+		padding: 40px;
+		background: none;
+		border-radius: 25px 0 25px 0;
+		box-shadow:0 0 24px 0 rgba(0,0,0,.08);
+	}
+	
+	footer { 	
+		font-family: arial;
+		font-size: 16px;
+		color: white;
+		text-align: center;
+		background-color: #003887;
+		padding: 10px;
+	}
