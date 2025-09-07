@@ -1,9 +1,4 @@
-	@import url('fonts.css');
-	
-	body{
-		font-family: 'Poppins';
-	}
-		
+
 	header{
 		display: flex;
 		background-color: #fff;

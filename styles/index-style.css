@@ -1,10 +1,9 @@
-	@import url('fonts.css');
-	
-	body{
-		font-family: 'Poppins';
+
+	body {
+		font-family: arial;
 	}
 		
-	header{
+	header {
 		display: flex;
 		background-color: #fff;
 		width: 100%;
