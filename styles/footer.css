@@ -8,11 +8,9 @@
 		display: flex;
 		gap: 50px;
 		justify-content: center;
-		width: 1180px;
 		margin: 0 auto;
 		padding: 20px;
 	}
-	
 	
 	.endereco p{
 		font-size: 16px;
@@ -36,4 +34,25 @@
 	
 	address {
 		font-style: normal;
+	}
+	
+	@media (max-width: 680px){ 
+	
+	.rodape {
+		flex-wrap: wrap;
+		gap: 0px;
+		margin-left: 25px;
+	}
+	
+	.redes-sociais { 
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	
+	.endereco {
+		width: 50%;
+	}
+	
+	
+	
 	}

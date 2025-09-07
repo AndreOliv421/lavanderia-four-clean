@@ -185,15 +185,6 @@
 		
 	}
 
-	footer { 	
-		font-family: arial;
-		font-size: 16px;
-		color: white;
-		text-align: center;
-		background-color: #003887;
-		padding: 10px;
-	}
-	
 	/*RESPONSIVO*/
 	
 	@media (max-width: 680px) {
@@ -235,29 +226,5 @@
 		background-color: #acdbf6;
 		border: 2px solid #acdbf6;
 		border-radius: 10px;
-	}
-	
-	
-	.rodape {
-		flex-wrap: wrap;
-	}
-	
-	
-	
-	.redes-sociais {
-		width: 80%;
-		justify-content: start;
-	}
-	
-	.icon {
-		width: 30px;
-	}
-	
-	address.rodape {
-		width: 90%;
-		margin: 0px;
-		padding-right: 0px;
-	}
-	
-	
+	}	
 	}
