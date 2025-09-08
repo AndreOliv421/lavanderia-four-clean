@@ -69,11 +69,57 @@
 	
 	@media (max-width: 680px){ 
 	
+	.menu { 
+		width: 100%; 
+	}
 	
+	.menu ul {
+		gap: 20px;
+		justify-content: center;
+	}
 	
+	banner {
+		flex-direction: column;
+		text-align: center;
+		padding: 24px 16px;
+	}
 	
+	.toalhas {
+		width: 280px;
+		margin: 0 auto;
+	}
 	
+	.banner h2 {
+		font-size: 22px;
+		line-height: 1.25;
+		margin: 0;
+	}
 	
+	.para-você {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.para-casa {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.para-empresa {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#titulo-chamada-servicos {
+		display: flex;
+		flex-direction: column;
+		padding: 15px;
+		text-align: center;
+	}
+	
+	#titulo-chamada-servicos br {
+		display: none;
+	}
 	
 	
 	}
