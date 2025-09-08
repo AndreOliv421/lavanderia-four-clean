@@ -1,13 +1,16 @@
+@import url('fonts.css');
+
 body{
-	font-family:Arial;
+	font-family: arial;
+		color: #0f0042;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
+	display: grid;
 	gap: 10px;
+	width: 100%;
 	max-width: 400px;
-	margin: auto;
+	margin: 100px auto;
 }
 
 form input, form textarea {
@@ -25,6 +28,19 @@ form button {
 	cursor: pointer;
 }
 
-#contato{
-margin-bottom: 90px;
+.contato{
+		background: #003887;
+		color: #fff;
+		font-size: 24px;
+		text-align: center;
+		margin: 0 auto;
+		height: 100px;
+		display: flex;  
+		justify-content: center;
+		align-items: center;
 	}
+	
+.contato h2{ 
+	margin: 0px;
+	
+}

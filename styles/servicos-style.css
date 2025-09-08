@@ -69,31 +69,6 @@
 	
 	@media (max-width: 680px){ 
 	
-	.menu { 
-		width: 100%; 
-	}
-	
-	.menu ul {
-		gap: 20px;
-		justify-content: center;
-	}
-	
-	banner {
-		flex-direction: column;
-		text-align: center;
-		padding: 24px 16px;
-	}
-	
-	.toalhas {
-		width: 280px;
-		margin: 0 auto;
-	}
-	
-	.banner h2 {
-		font-size: 22px;
-		line-height: 1.25;
-		margin: 0;
-	}
 	
 	.para-você {
 		display: flex;
