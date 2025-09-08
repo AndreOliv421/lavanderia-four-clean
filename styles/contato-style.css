@@ -14,18 +14,22 @@ form {
 }
 
 form input, form textarea {
+	font-family: 'Poppins';
 	padding: 10px;
 	border: 1px solid #ccc;
-	border-radius: 5px;
+	border-radius: 5px 0 5px 0;
+	box-shadow:0 8px 24px rgba(0,0,0,.08)
 }
 
 form button {
-	background: #0077c2;
+	font-family: 'Poppins';
+	background: #003887;
 	color: white;
 	border: none;
 	padding: 10px;
-	border-radius: 5px;
+	border-radius: 5px 0 5px 0;
 	cursor: pointer;
+	box-shadow:0 8px 24px rgba(0,0,0,.08)
 }
 
 .contato{
