@@ -22,7 +22,8 @@ O site apresenta os principais serviços da lavanderia, planos de contratação 
 
 ## Como acessar
 
-O site está disponível online, hospedado no Github Pages. 
+O site está disponível online, hospedado no Github Pages.
+https://andreoliv421.github.io/lavanderia-four-clean/
 
 ## Autores
 
