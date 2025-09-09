@@ -51,6 +51,7 @@
 	.chamada-servicos h3 {
 		font-size: 40px;
 		color: #284268;
+		text-transform: uppercase;
 	}
 		
 	.chamada-servicos p {
