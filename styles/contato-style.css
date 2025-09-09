@@ -1,38 +1,38 @@
-@import url('fonts.css');
+	@import url('fonts.css');
 
-body{
-	font-family: arial;
+	body{
+		font-family: arial;
 		color: #0f0042;
-}
+	}
 
-form {
-	display: grid;
-	gap: 10px;
-	width: 100%;
-	max-width: 400px;
-	margin: 100px auto;
-}
+	form {
+		display: grid;
+		gap: 10px;
+		width: 100%;
+		max-width: 400px;
+		margin: 100px auto;
+	}
 
-form input, form textarea {
-	font-family: 'Poppins';
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px 0 5px 0;
-	box-shadow:0 8px 24px rgba(0,0,0,.08)
-}
+	form input, form textarea {
+		font-family: 'Poppins';
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px 0 5px 0;
+		box-shadow:0 8px 24px rgba(0,0,0,.08)
+	}
 
-form button {
-	font-family: 'Poppins';
-	background: #003887;
-	color: #fff;
-	border: none;
-	padding: 10px;
-	border-radius: 5px 0 5px 0;
-	cursor: pointer;
-	box-shadow:0 8px 24px rgba(0,0,0,.08)
-}
+	form button {
+		font-family: 'Poppins';
+		background: #003887;
+		color: #fff;
+		border: none;
+		padding: 10px;
+		border-radius: 5px 0 5px 0;
+		cursor: pointer;
+		box-shadow:0 8px 24px rgba(0,0,0,.08)
+	}
 
-.contato{
+	.contato{
 		background: #003887;
 		color: #fff;
 		font-size: 24px;
@@ -44,7 +44,6 @@ form button {
 		align-items: center;
 	}
 	
-.contato h2{ 
-	margin: 0px;
-	
-}
+	.contato h2{ 
+		margin: 0px;
+	}

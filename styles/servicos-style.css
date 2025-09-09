@@ -1,3 +1,4 @@
+	
 	body{
 		font-family:Arial;
 	}
@@ -68,8 +69,7 @@
 	}
 	
 	@media (max-width: 680px){ 
-	
-	
+
 	.para-você {
 		display: flex;
 		flex-direction: column;
@@ -95,6 +95,4 @@
 	#titulo-chamada-servicos br {
 		display: none;
 	}
-	
-	
 	}
